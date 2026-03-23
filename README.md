@@ -14,7 +14,7 @@
 
 **Simon Says** is a fast, browser-based memory game where each round adds a new color to the pattern. Your job is simple: watch the sequence, remember it, and repeat it without slipping up.
 
-This version leans into a futuristic arcade feel with glowing pads, animated feedback, and a bold HUD-inspired interface. It is lightweight, responsive, and built without any frameworks or dependencies.
+This version leans into a futuristic arcade feel with glowing pads, animated feedback, and a bold HUD-inspired interface. It is lightweight, responsive, and built without any frameworks or dependencies. You can play the deployed version here: **https://simon-game-oh1d.vercel.app/**.
 
 ## Live Site
 
