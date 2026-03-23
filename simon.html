@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Says</title>
+    <link rel="stylesheet" href="simon.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero-card">
+        <p class="eyebrow">Memory Arcade</p>
+        <h1>Simon Says</h1>
+        <p class="intro">
+          Watch the pattern, hold the sequence in your head, and see how many
+          rounds you can survive.
+        </p>
+        <h2>Press Any Key to start</h2>
+        <p class="helper-text">Then click the glowing pads in the same order.</p>
+
+        <div class="game-board">
+          <div class="board-core">
+            <span class="core-ring"></span>
+            <span class="core-text">Repeat the rhythm</span>
+          </div>
+          <div class="btn-container">
+            <div class="l1">
+              <div class="btn red" type="button" id="red">Red</div>
+              <div class="btn yellow" type="button" id="yellow">Yellow</div>
+            </div>
+            <div class="l2">
+              <div class="btn green" type="button" id="green">Green</div>
+              <div class="btn purple" type="button" id="purple">Purple</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tips">
+          <span>Keyboard starts the game</span>
+          <span>Each round adds one more move</span>
+          <span>One mistake resets the board</span>
+        </div>
+      </div>
+    </main>
+
+    <script src="simon.js"></script>
+  </body>
+</html>
