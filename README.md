@@ -22,12 +22,6 @@ Play it here:
 
 **https://simon-game-oh1d.vercel.app/**
 
-## Deployment
-
-This project is deployed on Vercel:
-
-**https://simon-game-oh1d.vercel.app/**
-
 ## Highlights
 
 - Futuristic neon arcade UI
