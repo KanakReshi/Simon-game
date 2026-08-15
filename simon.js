@@ -11,6 +11,7 @@ let body = document.querySelector("body");
 let h2 = document.querySelector("h2");
 // console.dir(h2);
 
+const wrongSound = new Audio("wrong.mp3");
 document.addEventListener("keypress", function () {
   if (started == false) {
     console.log("Game started");
@@ -67,6 +68,8 @@ function checkSequence() {
   if (userSeq[index] == gameSeq[index]) {
     if (userSeq.length == gameSeq.length) setTimeout(levelUp, 1000);
   } else {
+    wrongSound.currentTime = 0;
+    wrongSound.play().catch(() => {});
     h2.innerText = `Game OVERR, PRESS ANY KEY TO START AGAIN\n YOUR SCORE WAS : ${level} `;
     redScreen();
     restart();

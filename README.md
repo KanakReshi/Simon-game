@@ -10,6 +10,10 @@
 
 ---
 
+## Description
+
+Simon Says is a modern browser remake of the classic memory game. The player has to observe a growing sequence of flashing colored pads and repeat it in the exact same order. With every successful round, the pattern becomes longer, making the game more challenging and testing the player's focus, short-term memory, and reaction accuracy.
+
 ## Overview
 
 **Simon Says** is a fast, browser-based memory game where each round adds a new color to the pattern. Your job is simple: watch the sequence, remember it, and repeat it without slipping up.
